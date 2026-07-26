@@ -20,3 +20,7 @@ const poorUser = {
     return `My new balance ${(this, balance + balance)}`;
   },
 };
+
+const arr: number[] = [1, 4, 5];
+
+const newArray = arr.map((elem: number): number => elem * elem);
